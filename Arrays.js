@@ -33,3 +33,40 @@
 //     console.log(city);
 //     console.log(city.toUpperCase());
 // }
+
+//concat()-
+// let mavrelHeroes = ["thor", "spiderman", "ironman"];
+// let dcHeroes = ["superman", "batman"];
+// let heroes = mavrelHeroes.concat(dcHeroes);
+// console.log(heroes);
+
+//unshift- add to start
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// marvelHeroes.unshift("antman");
+// console.log(marvelHeroes);  //['antman', 'thor', 'spiderman', 'ironman']
+
+
+//shift-delete from start
+// let marvelHeroes = ["thor", "spiderman", "ironman"];
+// let val = marvelHeroes.shift();
+// console.log("deleted", val)
+// console.log(marvelHeroes);// ['spiderman', 'ironman']
+
+//slice-
+// let marvelHeroes = ["thor", "spiderman", "ironman", "antman", "dr.stranger"];
+// console.log(marvelHeroes);
+// console.log(marvelHeroes.slice(1, 3));
+
+// splice()-change eriginaal array
+let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2, 2, 101, 102);
+// console.log(arr);  // [1, 2, 101, 102, 5,6,7]   
+
+//add element
+// arr.splice(2, 0, 101);
+
+//delete element
+// arr.splice(3, 1);
+
+//replace Element
+arr.slice(3, 1, 101);
