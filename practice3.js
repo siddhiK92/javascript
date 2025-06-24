@@ -1,6 +1,6 @@
 //loops-
 
-//print all even / odd number from 0 to 100
+//1.print all even / odd number from 0 to 100
 // let n;
 // for (let n = 0; n <= 100; n++) {
 //     // if (n % 2 == 0) {//even
