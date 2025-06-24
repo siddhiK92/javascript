@@ -9,10 +9,17 @@
 //     }
 // }
 
-//gessing number game
+//2.gessing number game
 // let gameNum = 24; //number in string
 // let userNum = prompt("guess the game number:");
 // while (userNum != gameNum) {
 //     userNum = prompt("You entered wrong number.guess again:");
 // }
 // console.log("congratulations,you enter thee right numbeer");
+
+
+//3.username="siddhikawade",username should be "@siddhikawade"
+
+let fullName = prompt("Enter your name without space:");
+let username = "@" + fullName;
+console.log(username);
