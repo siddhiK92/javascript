@@ -34,6 +34,28 @@
 //     console.log(city.toUpperCase());
 // }
 
+
+//methods in arrays
+//1.push-add
+// let fooditems = ["potatao", "apple", "litchi", "tomato"];
+// // fooditems.push("chips"); //chips add in the end
+// // console.log(fooditems);   //['potatao', 'apple', 'litchi', 'tomato', 'chips']
+// fooditems.push("panner", "burger","chips");
+// console.log(fooditems);
+
+//2.pop -delete
+// let fooditems = ["potatao", "apple", "litchi", "tomato"];
+// console.log(fooditems);
+// fooditems.pop();  //last item deleeted
+// console.log(fooditems);  //['potatao', 'apple', 'litchi']
+
+//3.toString()-conver array to string
+// let fooditems = ["potatao", "apple", "litchi", "tomato"];
+// console.log(fooditems);
+// console.log(fooditems.toString());  //string-potatao,apple,litchi,tomato
+
+
+
 //concat()-
 // let mavrelHeroes = ["thor", "spiderman", "ironman"];
 // let dcHeroes = ["superman", "batman"];

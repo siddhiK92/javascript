@@ -50,6 +50,8 @@
 // console.log(fooditems);  //['potatao', 'apple', 'litchi']
 
 //3.toString()-conver array to string
-let fooditems = ["potatao", "apple", "litchi", "tomato"];
-console.log(fooditems);
-console.log(fooditems.toString());  //string-potatao,apple,litchi,tomato
+// let fooditems = ["potatao", "apple", "litchi", "tomato"];
+// console.log(fooditems);
+// console.log(fooditems.toString());  //string-potatao,apple,litchi,tomato
+
+
