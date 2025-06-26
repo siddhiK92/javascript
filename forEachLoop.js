@@ -7,7 +7,7 @@
 // }
 
 // let arr = [1, 2, 3, 4, 5];
-// arr.forEach(function printVal(val) {  //each value at each index
+// arr.forEach(function printVal(val) {  //arr.foreach=for.each each value at each index
 //     console.log(val);
 // })
 

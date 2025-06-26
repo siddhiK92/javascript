@@ -32,8 +32,24 @@
 // }
 
 
-//3.for given array  calculate square
-let nums = [2, 3, 4, 5, 6];
-nums.forEach((num) => {
-    console.log(num * num);
+//3.for given array of numbers,print the square of each value using the forEach loop
+// 1.
+// let nums = [2, 3, 4, 5, 6];
+// nums.forEach((num) => {
+//     console.log(num * num); //num**2
+// });
+
+//2.
+// let nums = [67, 23, 45];
+// let calSquare = (num) => {
+//     console.log(num * num);
+// };
+// nums.forEach(calSquare);
+
+
+//4.we are given array of marks of students.filter ut of the marks of students that scored 90+.
+let marks = [94, 76, 45, 98, 67, 90, 95];
+let toppers = marks.filter((val) => {
+    return val > 90;
 });
+console.log(toppers);

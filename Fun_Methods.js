@@ -58,7 +58,10 @@
 // }
 // const x = 5; //5
 
-//Moder js-of sum
+
+
+
+//Modern js-of sum
 // const ArrowSum = (a, b) => {
 //     console.log(a + b); // ArrowSum()- print ho jayega
 // };
@@ -95,4 +98,38 @@
 // const printHello = () => console.log("hello"); //printHello-hello
 
 
-//Map method
+//Map method --new array returns
+// let nums = [23, 45, 67];
+// nums.map((val) => {
+//     console.log(val);
+// });
+// let calSquare = (num) => {
+//     console.log(num * num);
+// };
+
+
+// let nums = [23, 45, 67];
+// let newArr = nums.map((val) => {
+//     return val * 2;
+
+// });
+// console.log(newArr);
+// let calSquare = (num) => {
+//     console.log(num * num);
+// };
+
+
+//filter
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let evenArr = arr.filter((val) => {
+//     return val % 2 !== 0;
+// });
+// console.log(evenArr);
+
+//reduce
+let arr = [5, 6, 7, 8, 9, 90];
+const output = arr.reduce((prev, curr) => {
+    return prev < curr ? prev : curr;
+});
+console.log(output);
