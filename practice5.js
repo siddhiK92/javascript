@@ -48,8 +48,10 @@
 
 
 //4.we are given array of marks of students.filter ut of the marks of students that scored 90+.
-let marks = [94, 76, 45, 98, 67, 90, 95];
-let toppers = marks.filter((val) => {
-    return val > 90;
-});
-console.log(toppers);
+// let marks = [94, 76, 45, 98, 67, 90, 95];
+// let toppers = marks.filter((val) => {
+//     return val > 90;
+// });
+// console.log(toppers);
+
+//5. take a number n as input from useer .create an array of nos from 1 to n.
