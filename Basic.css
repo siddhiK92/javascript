@@ -1,0 +1,19 @@
+
+body{
+    background-color: lab(79.25% 25.54 3.92);
+}
+h1{
+    color:#5757ed;
+    font-size: large;
+    text-decoration: line-through;
+}
+h2{
+    color:#9ef39e;
+    font-size: bold;
+    background-color: chocolate;
+   
+}
+button{
+    background-color: darkblue;
+    color: white;
+}
