@@ -13,10 +13,4 @@ let answer=0;
 //     console.log(answer);
 // }
 
-let person1="siddhi";
-let age1=20;
-let gender1="female";
 
-let person2="sid";
-let age2=23;
-let gender2="male";
