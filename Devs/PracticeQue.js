@@ -1,3 +1,10 @@
+
+// practice que on:
+// Variables(let,var,const)
+// if/else
+// Loops-for loop
+
+
 // Q1. WAP to greet a person given their first and last name.
 
 // let=Firstname="siddhi";
@@ -5,12 +12,12 @@
 // console.log("Hello " + Firstname + Lastname + " Welcome to js");
 
 //Q2.WAP that greets a person based on their gender.(if else)
-// let gender="female";
+let gender="female";
 
-// if(gender=="male")
-//     console.log("Hello madam");
-// else
-// console.log("Hello sir");
+if(gender=="male")
+    console.log("Hello madam");
+else
+console.log("Hello sir");
 
 // Q3.WAP that counts from 0-1000 and prints (for loop)
 let answer=0;
